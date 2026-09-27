@@ -1,0 +1,22 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude original materials & exercises as requested
+Files/
+Exercises-27-09-2026/
