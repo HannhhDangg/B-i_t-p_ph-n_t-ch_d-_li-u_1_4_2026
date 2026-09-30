@@ -12,12 +12,13 @@ Dự án tổng hợp bài tập thực hành và tài liệu hướng dẫn lý
   - File bài giải Jupyter Notebook (`.ipynb`) đã chạy hoàn chỉnh, có sẵn output và đồ thị.
   - File script Python (`.py`) chạy trực tiếp.
   - File cẩm nang hướng dẫn lý thuyết (`Huong_Dan_Ly_Thuyet_xx.md`) giải thích chi tiết từng hàm, tại sao dùng, cơ chế hoạt động và các bẫy thường gặp.
+- **`Week4_Web_Scraping_Exercise/`**: Bài tập Tuần 4 về Web Scraping (thu thập dữ liệu TMĐT, làm sạch, phân tích và so sánh BeautifulSoup vs Scrapy).
 - **`Exercises-27-09-2026/`**: Bộ bài tập gốc đã được đồng bộ lời giải.
-- **`Files/`**: Slide bài giảng môn học (Intro, NumPy, Pandas).
+- **`Files/`**: Slide bài giảng môn học (Intro, NumPy, Pandas, Web Scraping).
 
 ---
 
-### 📚 Danh Sách 9 Bài Tập Thực Hành
+### 📚 Danh Sách Các Bài Tập Thực Hành
 
 1. **Bài 00: Khởi Tạo Series & DataFrame (Pokemon)** - `00_Creating_Series_and_DataFrames`
    - Tạo DataFrame từ Dictionary, reordering columns, thêm cột mới, kiểm tra `dtypes`.
@@ -37,6 +38,8 @@ Dự án tổng hợp bài tập thực hành và tài liệu hướng dẫn lý
    - Biểu đồ tròn (`plt.pie`), biểu đồ phân tán 3 chiều (`sns.scatterplot` với `hue='Sex'`), biểu đồ tần số (`plt.hist`), biểu đồ cột (`sns.barplot`).
 9. **Bài 08: Xóa & Xử Lý Dữ Liệu Thiếu (Hoa Iris)** - `08_Deleting`
    - Đọc dữ liệu không tiêu đề (`header=None`), phát hiện NaN (`isnull().sum()`), điền khuyết (`.fillna()`), loại bỏ dòng rỗng (`.dropna()`), reset index.
+10. **Tuần 4: Thu Thập Dữ Liệu Web & So Sánh BeautifulSoup vs Scrapy** - `Week4_Web_Scraping_Exercise`
+    - Cào dữ liệu sản phẩm từ trang TMĐT [Books to Scrape](http://books.toscrape.com), làm sạch bằng Pandas, lưu CSV, phân tích phân phối giá và xếp hạng sao, so sánh chuyên sâu BeautifulSoup vs Scrapy Framework.
 
 ---
 
